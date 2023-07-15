@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* background Section */
+.bg-img {
+  width: 1500px;
+  height: 680px;
+  margin-top: -92px;
+  /* margin-left: 50px; */
+}
+/* nav-bar section */
+.nav {
+  background: transparent;
+  position: absolute;
+  margin-top: -562px;
+  display: flex;
+  flex-direction: row;
+}
+.nav-logo {
+  background: transparent;
+  margin-left: 100px;
+}
+.nav-logo img {
+  width: 118px;
+  margin-top: -3.5px;
+}
+.nav-menu {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  margin-left: 97px;
+}
+.nav-1 {
+  background: transparent;
+  color: rgb(183, 183, 183);
+  font-weight: 500;
+  font-size: 11.5px;
+}
+.nav-btn {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  margin-left: 328px;
+  margin-top: -9.5px;
+}
+.nav-btn-1 {
+  background: transparent;
+  color: rgb(183, 183, 183);
+  font-weight: 500;
+  font-size: 11.5px;
+  padding-right: 21px;
+  padding-top: 9px;
+}
+.nav-btn-2 {
+  background: #f4694c;
+  font-size: 11.5px;
+  color: white;
+  font-weight: 500;
+  padding-left: 27.5px;
+  padding-right: 27.5px;
+  height: 37px;
+  padding-top: 9px;
+}
+/* get-started section */
+.get {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background-color: transparent;
+  margin-top: -414px;
+  margin-left: 101px;
+}
+.get-left {
+  background: transparent;
+  width: 500px;
+}
+.get-head {
+  background: transparent;
+  font-size: 40.5px;
+  font-weight: 700;
+  color: white;
+}
+.get-des {
+  background: transparent;
+  width: 400px;
+  color: rgb(147, 147, 147);
+  font-size: 11.67px;
+  font-weight: 500;
+  margin-top: 15px;
+  line-height: 23.5px;
+}
+.get-btn {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  margin-top: 33px;
+}
+.get-btn-1 {
+  background: #f4694c;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 31px;
+  padding-right: 31px;
+  border: none;
+}
+.get-btn-2 {
+  background: transparent;
+  margin-left: 20.5px;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding-left: 29.5px;
+  padding-right: 29.5px;
+  padding-top: 12px;
+  color: white;
+  border: 1.5px solid white;
+}
+.get-right {
+  margin-left: 100px;
+  background: transparent;
+  width: 50%;
+}
+.get-play img {
+  width: 67px;
+  margin-left: 206px;
+  margin-top: 80px;
+}
+.get-footer {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  margin-top: 114px;
+  margin-left: 105px;
+}
+.get-dash img {
+  width: 45px;
+  padding-bottom: 3px;
+  padding-right: 10px;
+}
+.get-king {
+  width: 210px;
+  color: white;
+  font-size: 20.2px;
+  padding-left: 2px;
+  padding-top: -5px;
+}
+.get-right-arrow img {
+  padding-top: 73px;
+  width: 53px;
+  margin-left: 35px;
+}
+
+/* most-popular section */
+.popular {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pop-head {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  width: 600px;
+  margin-top: 144px;
+}
+.pop-games {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 20px;
+}
+.act {
+  font-size: 12px;
+  color: rgb(89, 89, 89);
+}
+.game-name {
+  font-size: 13.5px;
+  color: white;
+}
+.pop-img {
+  width: 238px;
+  height: 294px;
+}
+.pop-des {
+  position: absolute;
+  margin-top: -100px;
+  padding-top: 14px;
+  padding-left: 13px;
+  width: 238px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: rgb(150, 149, 149);
+  height: 93px;
+  line-height: 24px;
+}
+.pop-down {
+  height: 33px;
+  color: white;
+  margin-left: 23px;
+  margin-top: 20px;
+  font-size: 11.5px;
+  padding-top: 4px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color: #f4694c;
+}
+.pop-star img {
+  width: 10px;
+}
+/* war-game section*/
+.war-game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  height: 500px;
+  padding-top: 40px;
+}
+.war-left img {
+  width: 421px;
+  height: 338px;
+  margin-left: -10px;
+}
+.war-right {
+  width: 500px;
+  margin-top: 12px;
+}
+.war-head {
+  font-size: 34px;
+  font-weight: 700;
+  width: 450px;
+}
+.war-des {
+  font-size: 11.8px;
+  color: rgb(155, 154, 154);
+  width: 435px;
+  font-weight: 500;
+  line-height: 23.5px;
+  padding-top: 13px;
+}
+.war-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 34px;
+}
+.war-btn-1 {
+  font-size: 13.5px;
+  color: white;
+  background-color: #f4694c;
+  font-weight: 500;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+.war-btn-2 {
+  font-size: 13.5px;
+  color: #f4694c;
+  border: #f4694c solid 1.5px;
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+/* Week games section */
+.week-games {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 871px;
+}
+.week-header {
+  display: flex;
+  flex-direction: row;
+}
+.week-head {
+  margin-top: 31px;
+  margin-left: 100px;
+  font-size: 33.6px;
+  font-weight: 700;
+  width: 400px;
+}
+.week-head-btn {
+  display: flex;
+  flex-direction: row;
+  width: 117.5px;
+  margin-left: 492px;
+  margin-top: 54px;
+}
+.left-arr {
+  background: rgb(245, 210, 199);
+  width: 52px;
+  height: 52px;
+}
+.left-arr img {
+  width: 38px;
+  padding-top: 23px;
+  padding-left: 15.5px;
+}
+.right-arr {
+  background-color: #f4694c;
+  width: 52px;
+  height: 52px;
+  margin-left: 13.5px;
+}
+.right-arr img {
+  width: 41px;
+  padding-top: 23px;
+  padding-left: 13px;
+}
+.recom-1 {
+  display: flex;
+  flex-direction: row;
+}
+.week-game-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.week-game-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-left: -19px;
+}
+.recom-2 {
+  display: flex;
+  flex-direction: row;
+}
+.week-game-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.week-game-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-left: -19px;
+}
+.week-game-img-1 {
+  width: 200px;
+  height: 230px;
+  padding-left: 101px;
+  padding-top: 2px;
+}
+.week-game-img-2 {
+  width: 200px;
+  height: 230px;
+  padding-left: 80px;
+  padding-top: 2px;
+}
+.week-game-img-3 {
+  width: 200px;
+  height: 230px;
+  padding-left: 101px;
+  padding-top: 27px;
+}
+.week-game-img-4 {
+  width: 200px;
+  height: 230px;
+  padding-left: 79px;
+  padding-top: 27px;
+}
+.week-game-img-1 img {
+  width: 196px;
+  height: 230px;
+}
+.week-game-img-2 img {
+  width: 196px;
+  height: 230px;
+}
+.week-game-img-3 img {
+  width: 196px;
+  height: 230px;
+}
+.week-game-img-4 img {
+  width: 196px;
+  height: 230px;
+}
+.wg-name {
+  font-size: 20px;
+  font-weight: 600;
+  width: 240px;
+}
+.wg-des-1 {
+  margin-left: 99px;
+  margin-top: 11px;
+}
+.wg-des-2 {
+  margin-left: 77px;
+  margin-top: 11px;
+}
+.wg-des-3 {
+  margin-left: 100px;
+  margin-top: 36px;
+}
+.wg-des-4 {
+  margin-left: 77px;
+  margin-top: 36px;
+}
+.war-type {
+  font-size: 13.4px;
+  font-weight: 600;
+  color: #f4694c;
+  margin-top: 8px;
+}
+.war-cnt {
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+  line-height: 23px;
+  margin-top: 15px;
+  width: 260px;
+}
+.war-down {
+  margin-top: 20px;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+  text-align: center;
+  width: 130px;
+  font-size: 13.5px;
+  color: white;
+  background-color: #f4694c;
+}
+/* most played games section */
+.bgimage {
+  background-color: #000308;
+  height: 790px;
+  width: 1500px;
+}
+.bgimage img {
+  width: 790px;
+  margin-top: 327px;
+  margin-left: 422px;
+}
+.mostgames {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-top: -790px;
+  gap: 37px;
+}
+.most-head {
+  color: white;
+  font-size: 33.5px;
+  font-weight: 700;
+  width: 350px;
+  text-align: center;
+  padding-top: 52px;
+  background: transparent;
+}
+.most-cnt {
+  display: flex;
+  flex-direction: row;
+  gap: 51px;
+  background: transparent;
+}
+.most-img {
+  background: transparent;
+}
+.most-img img {
+  width: 337px;
+  height: 387px;
+  margin-left: -76px;
+  margin-top: -3px;
+  background: transparent;
+}
+.most-img-lst {
+  display: flex;
+  flex-direction: column;
+  gap: 63px;
+  background: transparent;
+}
+.most-des {
+  color: grey;
+  font-size: 11.6px;
+  font-weight: 500;
+  width: 500px;
+  line-height: 23.7px;
+  margin-top: 40px;
+  background: transparent;
+}
+.most-images {
+  display: flex;
+  flex-direction: row;
+  gap: 39px;
+  background: transparent;
+}
+.most-img-1 {
+  background: transparent;
+}
+.most-img-1 img {
+  width: 253px;
+  margin-top: -1px;
+  background: transparent;
+}
+.most-img-2 {
+  background: transparent;
+}
+.most-img-2 img {
+  background: transparent;
+  width: 253px;
+  margin-top: 125px;
+}
+/* experience section */
+.game-exp {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.exp-1 {
+  width: 400px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+}
+.exp-2 {
+  text-align: center;
+  width: 310px;
+  color: rgb(118, 118, 118);
+  font-size: 11.8px;
+  font-weight: 500;
+  margin-top: 13px;
+  padding-left: 7px;
+}
+.exp-3 {
+  text-align: center;
+  padding-top: 12px;
+  width: 138px;
+  height: 45px;
+  background-color: #f4694c;
+  color: white;
+  font-size: 13.3px;
+  font-weight: 500;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+.game-exp-bgc {
+  background: #000308;
+}
+.game-exp-bgc img {
+  width: 1500px;
+}
+/* footer section */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.ft-cnt {
+  display: flex;
+  flex-direction: row;
+  background-color: #000308;
+  height: 280px;
+  border-bottom: solid rgb(54, 54, 72) 1px;
+}
+.ft-1 {
+  margin-top: 45px;
+  margin-left: 100px;
+}
+.ft-logo img {
+  width: 102.4px;
+  padding-left: 1px;
+}
+.ft-subscribe {
+  margin-top: 3px;
+  width: 170px;
+  font-size: 11.8px;
+  font-weight: 500;
+  color: grey;
+  line-height: 23.5px;
+}
+.ft-social {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  margin-top: 13px;
+}
+.fb,
+.ig,
+.tw {
+  width: 33px;
+  margin-top: 7px;
+}
+.ft-2,
+.ft-3,
+.ft-4,
+.ft-5 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 45px;
+}
+.art-head,
+.lg-head,
+.tm-head,
+.con-head {
+  color: white;
+  font-size: 13.8px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.art-menu,
+.lg-menu,
+.tm-menu,
+.con-menu {
+  color: grey;
+  font-size: 13.6px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+.blnk {
+  height: 67px;
+  background-color: rgb(0, 0, 16);
+}
